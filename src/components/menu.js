@@ -7,7 +7,7 @@ import { useNavigation } from '@react-navigation/native';
 import { useSelector } from 'react-redux';
 import { updateActualScreen, updateMode, updateAudioLike } from '../funciones/redux/actions';
 import store from '../funciones/redux/store';
-import { Picker } from '@react-native-picker/picker';
+//import { Picker } from '@react-native-picker/picker';
 import { file } from '../funciones/dinamicFiles/dinamicFiles';
 
 
@@ -121,7 +121,7 @@ const Menu = ({ children }) => {
   const renderTagsOption = () =>{
     return (
       <View style={[styles.menu.containerPiker]}>
-          <Picker
+          {/*<Picker
               selectedValue={selectedValue}
               style={[styles.menu.picker, styles.generalStyles.contentText, {borderColor: 'transparent', backgroundColor: isEnabled ? darkBackgoundcolor : lightBackgoundcolor }, { color: isEnabled ? lightBackgoundcolor : darkBackgoundcolor }]}
               onValueChange={handleChange}
@@ -129,7 +129,7 @@ const Menu = ({ children }) => {
               {tagNames.map((item, index) => (
                   <Picker.Item key={index} label={item.charAt(0).toUpperCase() + item.slice(1)} value={item} />
               ))}
-          </Picker>
+              </Picker>*/}
       </View>
     );
   };
