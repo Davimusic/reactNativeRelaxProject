@@ -189,6 +189,6 @@ const styleImagesPlayer = { height: 40, width: 40, }//backgroundColor: 'trasnpar
       
     </View>
   );
-};//{audioCurrentTime !== null && !isNaN(audioCurrentTime) ? seconToMinute(audioCurrentTime) : '00:00'}
+};
 
 export default Player;

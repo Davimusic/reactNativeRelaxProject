@@ -27,9 +27,7 @@ const AudioPlayer = () => {
   const isPlaying = useSelector((state) => state.isPlaying);
   const audioLike = useSelector((state) => state.audioLike);
 
-  /*if (isLoading) {
-    return <ActivityIndicator size="large" color="#0000ff" />;
-  }*/
+  
 
 
   useEffect(() => {
@@ -98,21 +96,7 @@ const repeatAnimation = () => {
     }
 };
 
-/*async function getAudioDuration() {
-    const { sound } = await Audio.Sound.createAsync({ uri: arrePa[count].linkAudio });
-    if(count + 1 < arrePa.length){
-        count += 1
-        getAudioDuration()
-    }
-}*/
 
-/*function stopLoad(){
-  setIsLoading(false)
-}
-
-useEffect(() => {
-    setTimeout(stopLoad, 2000)
-}, [])*/
 
 const scrollViewRef = useRef();
 const itemHeights = useRef({});

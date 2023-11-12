@@ -18,7 +18,7 @@ class App extends React.Component {
   
     render() {
       if (!this.state.fontLoaded) {
-        return null; // O devuelve un componente de carga aquí.
+        return null; 
       }
   
       // Aquí va el resto de tu renderizado...

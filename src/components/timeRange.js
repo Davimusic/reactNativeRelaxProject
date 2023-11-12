@@ -17,13 +17,7 @@ const TimeRange = ({ id }) => {
 
   return (
     <View>
-        {/*<InputRange
-            style={styles.inputRange}
-            minimumValue={0}
-            maximumValue={100}
-            value={0}
-            onValueChange={(value) => reubicar(value)}
-        />*/}
+        
     </View>
   );
 };

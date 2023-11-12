@@ -242,7 +242,7 @@ export default function Login({ navigation }) {
                   source={{ uri: urlPhoto }}
                   style={[
                     styles.login.backgroundImageLogin,
-                    {/*{ opacity: fadeInOpacity }*/},
+                    
                   ]}
                 />
               </View>
